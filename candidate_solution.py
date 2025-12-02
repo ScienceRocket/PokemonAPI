@@ -5,7 +5,6 @@ import httpx
 from fastapi import FastAPI, HTTPException, status
 from typing import List, Optional
 import uvicorn
-from ollama_connection import AskAI, OllamaError
 from datetime import datetime
 
 # --- Constants ---
